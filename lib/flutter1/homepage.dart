@@ -43,9 +43,7 @@ class Homepage extends StatelessWidget {
                       child: Text("About",
                           style: TextStyle(
                               fontSize: 30,
-                              color: Color.fromRGBO(0, 0, 0, 1))),
-                              
-                              
+                              color: Color.fromRGBO(0, 0, 0, 1))),                      
                     ),
                     PopupMenuItem<String>(
                       value: "Share App",
@@ -70,8 +68,6 @@ class Homepage extends StatelessWidget {
               )
             ],
           ),
-    
-          
           body: ListView(
             children: [
               items("Behnam Bani", context, 'info_first'),
@@ -94,9 +90,6 @@ class Homepage extends StatelessWidget {
     );
   }
 }
-
-
-
 items(title, BuildContext context, address){
 return Padding(
   padding: const EdgeInsets.all(8.0),
