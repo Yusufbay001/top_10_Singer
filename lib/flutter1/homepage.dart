@@ -1,9 +1,9 @@
-
 import 'package:flutter/material.dart';
 
 void main(List<String> args) {
   runApp(const Homepage());
 }
+
 
 class Homepage extends StatelessWidget {
   const Homepage({super.key});
@@ -17,7 +17,7 @@ class Homepage extends StatelessWidget {
         padding: const EdgeInsets.all(16.0),
         child: Scaffold(
           backgroundColor:
-              const Color.fromARGB(255, 35, 58, 75), 
+              const Color.fromARGB(255, 35, 58, 75),  // this is the background color
 
           appBar: AppBar(
             backgroundColor:
