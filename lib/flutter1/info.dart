@@ -121,8 +121,8 @@ class Ten extends StatelessWidget {
       home: abc(context, "EBI", detail, img)
     );
   }
-}
-
+}     
+     
 abc(BuildContext context, title, detail, img) {
   return Scaffold(
     //  APPBAR
