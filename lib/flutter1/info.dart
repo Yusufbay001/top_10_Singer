@@ -74,7 +74,6 @@ class six extends StatelessWidget {
     );
   }
 }
-
 class seven extends StatelessWidget {
   const seven({super.key});
   @override
@@ -86,7 +85,6 @@ class seven extends StatelessWidget {
     );
   }
 }
-
 
 
 class eight extends StatelessWidget {
@@ -101,7 +99,6 @@ class eight extends StatelessWidget {
   }
 }
 
-
 class nine extends StatelessWidget {
   const nine({super.key});
   @override
@@ -114,7 +111,6 @@ class nine extends StatelessWidget {
   }
 }
 
-
 class Ten extends StatelessWidget {
   const Ten({super.key});
   @override
@@ -126,7 +122,6 @@ class Ten extends StatelessWidget {
     );
   }
 }
-
 
 abc(BuildContext context, title, detail, img) {
   return Scaffold(
@@ -145,7 +140,6 @@ abc(BuildContext context, title, detail, img) {
         ),
       ),
     ),
-
     
     body: Column(
       mainAxisAlignment: MainAxisAlignment.start,
@@ -156,7 +150,6 @@ abc(BuildContext context, title, detail, img) {
           width: 200,
           height: 150,
         ),
-
         Container(
         
           child: Text(
