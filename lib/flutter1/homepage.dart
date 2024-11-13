@@ -103,15 +103,10 @@ return Padding(
   child: Material(
     
     color: Colors.transparent,
-  
-  
     child: InkWell(
-      
       onTap: (){
         Navigator.pushNamed(context, "/$address");
-        
       },
-
         child: Container(
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
@@ -137,5 +132,4 @@ return Padding(
       ),
     ),
 );
-
 }
