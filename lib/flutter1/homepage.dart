@@ -4,14 +4,11 @@ void main(List<String> args) {
   runApp(const Homepage());
 }
 
-
 class Homepage extends StatelessWidget {
   const Homepage({super.key});
 
   @override
   Widget build(BuildContext context) {
-
-
     return MaterialApp(
       home: Padding(
         padding: const EdgeInsets.all(16.0),
