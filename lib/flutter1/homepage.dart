@@ -19,7 +19,7 @@ class Homepage extends StatelessWidget {
             backgroundColor:
                 const Color.fromARGB(255, 0, 0, 0), 
             title: const Text(
-              "Top 10 Singer", // Title
+              "Top 10 Singer", // Title     
               style: TextStyle(
                   fontSize: 30,
                   fontWeight: FontWeight.w400,
