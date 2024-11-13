@@ -149,7 +149,7 @@ abc(BuildContext context, title, detail, img) {
           image: AssetImage('assets/$img'),
           width: 200,
           height: 150,
-        ),   
+           ),   
         Container(
         
           child: Text(
@@ -159,7 +159,7 @@ abc(BuildContext context, title, detail, img) {
               color: Color.fromRGBO(12, 32, 44, 1),
             ), 
           ),
-        ),
+          ),
 
         
         // ElevatedButton(
