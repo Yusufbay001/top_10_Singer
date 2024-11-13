@@ -13,8 +13,6 @@ class one extends StatelessWidget {
     );
   }
 }
-
-
 class two extends StatelessWidget {
   const two({super.key});
   @override
@@ -27,7 +25,6 @@ class two extends StatelessWidget {
     );
   }
 }
-
 
 class three extends StatelessWidget {
   const three({super.key});
